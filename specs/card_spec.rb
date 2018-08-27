@@ -22,7 +22,7 @@ describe Card do
     end
   end
 
-  describe "Testing to_s" do
+  xdescribe "Testing to_s" do
 
     it "to_s returns a readable String value logically for values 2-10" do
       # Test to ensure that to_s works for cards values 2-10
@@ -35,7 +35,7 @@ describe Card do
     end
   end
 
-  describe "Reader methods" do
+  xdescribe "Reader methods" do
 
     it "Can retrieve the value of the card using a `.value`." do
       # ensure that `.value works as expected`
